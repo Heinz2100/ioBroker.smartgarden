@@ -1,10 +1,23 @@
 {
   "common": {
     "name": "smartgarden",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "connectionType": "cloud",
     "dataSource": "push",
     "news": {
+      "2.1.0": {
+        "en": "switch to GARDENA smart system API v2; activity_mowing_i extended by new API v2 mower activity codes",
+        "de": "Umstellung auf GARDENA smart system API v2; activity_mowing_i um neue API-v2-Maeher-Aktivitaetscodes erweitert",
+        "ru": "переход на GARDENA smart system API v2; activity_mowing_i расширен новыми кодами активности API v2",
+        "pt": "mudança para GARDENA smart system API v2; activity_mowing_i estendido com novos códigos de atividade da API v2",
+        "nl": "overstap naar GARDENA smart system API v2; activity_mowing_i uitgebreid met nieuwe API v2 activiteitscodes",
+        "fr": "passage à l'API v2 du GARDENA smart system; activity_mowing_i étendu avec les nouveaux codes d'activité de l'API v2",
+        "it": "passaggio a GARDENA smart system API v2; activity_mowing_i esteso con i nuovi codici di attività dell'API v2",
+        "es": "cambio a GARDENA smart system API v2; activity_mowing_i ampliado con nuevos códigos de actividad de la API v2",
+        "pl": "przejście na GARDENA smart system API v2; activity_mowing_i rozszerzone o nowe kody aktywności API v2",
+        "uk": "перехід на GARDENA smart system API v2; activity_mowing_i розширено новими кодами активності API v2",
+        "zh-cn": "切换到 GARDENA smart system API v2；activity_mowing_i 扩展了新的 API v2 活动代码"
+      },
       "2.0.1": {
         "en": "some really small improvements",
         "de": "einige wirklich kleine verbesserungen",
@@ -254,17 +267,17 @@
       "uk": "смартГарден для смарт-системи Gardena"
     },
     "desc": {
-      "en": "Gardena smart system adapter",
-      "de": "Gardena Smart System Adapter",
-      "ru": "адаптер для умной системы Gardena",
-      "pt": "um adaptador para o sistema inteligente Gardena",
-      "nl": "een adapter voor Gardena smart system",
-      "fr": "un adaptateur pour système intelligent Gardena",
-      "it": "un adattatore per il sistema intelligente Gardena",
-      "es": "un adaptador para el sistema inteligente de Gardena",
-      "pl": "adapter do inteligentnego systemu Gardena",
-      "uk": "Адаптер smart-системи Gardena",
-      "zh-cn": "Gardena智能系统的适配器"
+      "en": "Gardena smart system adapter (API v2)",
+      "de": "Gardena Smart System Adapter (API v2)",
+      "ru": "адаптер для умной системы Gardena (API v2)",
+      "pt": "um adaptador para o sistema inteligente Gardena (API v2)",
+      "nl": "een adapter voor Gardena smart system (API v2)",
+      "fr": "un adaptateur pour système intelligent Gardena (API v2)",
+      "it": "un adattatore per il sistema intelligente Gardena (API v2)",
+      "es": "un adaptador para el sistema inteligente de Gardena (API v2)",
+      "pl": "adapter do inteligentnego systemu Gardena (API v2)",
+      "uk": "Адаптер smart-системи Gardena (API v2)",
+      "zh-cn": "Gardena智能系统的适配器（API v2）"
     },
     "authors": [
       "jpgorganizer"
@@ -282,8 +295,8 @@
     "platform": "Javascript/Node.js",
     "icon": "smartgarden.png",
     "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/jpgorganizer/ioBroker.smartgarden/master/admin/smartgarden.png",
-    "readme": "https://github.com/jpgorganizer/ioBroker.smartgarden/blob/master/README.md",
+    "extIcon": "https://raw.githubusercontent.com/DEIN-GITHUB-USER/ioBroker.smartgarden/master/admin/smartgarden.png",
+    "readme": "https://github.com/DEIN-GITHUB-USER/ioBroker.smartgarden/blob/master/README.md",
     "loglevel": "info",
     "mode": "daemon",
     "type": "garden",
@@ -322,7 +335,7 @@
     "gardena_username": "mail@me.com",
     "gardena_password": "",
     "gardena_ping_frequence": "150",
-    "connection_retry_interval": "300",
+    "connection_retry_interval": "1800",
     "gardena_authtoken_factor": "0.999",
     "useIrrigationAllowedWhileMowing": false,
     "useMowerHistory": false,
